@@ -1,0 +1,9 @@
+d1 $ sound "bd*4 sn*4" # gain "[[1 0.8]*2 [0.6 0.8]]/2" # vowel "[a i e o u]*2"
+d2 $ sound "arpy(3,8) [arpy]" # n "2 3 5" # pan "[0.4 0.6] *2" # speed "0.5"
+d3 $ sound "[[.]*8 cp]" # gain "1.01" # shape "0.5"
+d4 $ sound "arpy*4" # n "2 .. 5" # speed "0.5"
+d5 $ sound "<drum:2*16 drum:2*12 drum:2*16 [drum:2*3 drum:2*3 drum:2*3 bd*4]>"
+d6 $ sound "<[808bd:1*4]/3 [808bd:1]/1.5>" # gain "3.3" # speed "1.7" # vowel "[a a a a]"
+d7 $ euclid 5 8 $ sound "bd:4"
+
+hush
